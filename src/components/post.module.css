@@ -1,0 +1,59 @@
+.post {
+  border: 1px solid grey;
+  margin: 1rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.7rem;
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 1rem;
+}
+.tags {
+  display: flex;
+  max-width: 90%;
+  overflow: hidden;
+  flex-wrap: wrap;
+  max-height: 3.8rem;
+}
+.post > p {
+  margin: 0;
+}
+
+.reaction > p {
+  margin: 0;
+  background-color: rgba(0, 128, 0, 0.3);
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.title {
+  height: 2.2rem;
+  font-size: 1.6rem;
+  margin: 0;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.comments {
+  font-size: 1.2rem;
+  max-height: 20rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.binIcon {
+  position: absolute;
+  height: 2rem;
+  top: 0.4rem;
+  right: 0.4rem;
+  border: 1px solid red;
+  padding: 3px;
+  border-radius: 100%;
+}
+.binIcon:hover {
+  background-color: rgba(255, 0, 0, 0.248);
+}
+.binIcon:active {
+  transform: scale(0.9);
+}

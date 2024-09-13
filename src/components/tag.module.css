@@ -1,0 +1,17 @@
+.tag {
+  background-color: #0d6efd;
+  color: white;
+  margin: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.tag > p {
+  margin: 0;
+}
